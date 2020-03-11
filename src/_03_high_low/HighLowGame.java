@@ -31,15 +31,15 @@ System.exit(0);
 	// 7. if the guess is high
 				// 8. Tell them it's too high
 			if (guess1 > random) {
-JOptionPane.showMessageDialog(null, "Your guess is too high! You lose!");
+JOptionPane.showMessageDialog(null, "Your guess is too high!");
 			}
 				// 9. if the guess is low
 				// 10. Tell them it's too low
 if (guess1 < random) {
-	JOptionPane.showMessageDialog(null, "Your guess is too low! You lose!");
+	JOptionPane.showMessageDialog(null, "Your guess is too low!");
 }
 		// 13. Tell them they lose
-		
+		JOptionPane.showMessageDialog(null, "You lose!");
 	}
 
 }
